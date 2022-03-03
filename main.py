@@ -65,6 +65,10 @@ while(opcion != 0):
     elif(opcion == 4):
         numero = int(input("Digite un numero: "))
         print(f'El cuadrado de {numero} es: {numero * numero}')
+    elif(opcion == 0):
+        break
+    else:
+        print("Digita una opcion valida")
 
 
 else:
